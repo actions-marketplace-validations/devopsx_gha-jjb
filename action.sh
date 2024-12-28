@@ -11,4 +11,4 @@ if [[ "$INPUT_DELETE_OLD" != 'false' ]]; then
   delete_old="--delete-old"
 fi
 
-jenkins-jobs --conf "$INPUT_INI_FILE" -p "$INPUT_JENKINS_TOKEN" update -r "$INPUT_JOBS_DIR" $delete_old
+jenkins-jobs --conf "$INPUT_INI_FILE" update -r "$INPUT_JOBS_DIR" $delete_old
