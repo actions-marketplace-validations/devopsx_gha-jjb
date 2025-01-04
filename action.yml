@@ -37,8 +37,8 @@ runs:
         $GITHUB_ACTION_PATH/action.sh
       shell: bash
       env:
-        INPUT_JJB_USER: ${{ inputs.jjb_user }}
-        INPUT_JJB_PASSWORD: ${{ inputs.jjb_password }}
+        JJB_USER: ${{ inputs.jjb_user }}
+        JJB_PASSWORD: ${{ inputs.jjb_password }}
         INPUT_JOBS_DIR: ${{ inputs.jjb_dir }}
         INPUT_INI_FILE: ${{ inputs.jjb_ini }}
         INPUT_JENKINS_CERT: ${{ inputs.jenkins_cert }}
