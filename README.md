@@ -27,8 +27,8 @@ jobs:
 
 ## Configuration
 
-1. Create a dedicated Jenkins account, and an [API token](https://www.jenkins.io/blog/2018/07/02/new-api-token-system/) for it.
-2. Create `JJB_USER` variable and `JJB_PASSWORD` [secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) in repository settings.
+1. Create a dedicated github account in Jenkins, and an [API token](https://www.jenkins.io/blog/2018/07/02/new-api-token-system/) for it.
+2. Create `JJB_USER` variable (account from step 1) and `JJB_PASSWORD` (token from step 1) [secret](https://docs.github.com/en/actions/reference/encrypted-secrets#creating-encrypted-secrets-for-a-repository) in repository settings.
 3. Add workflow yaml, as described above.
 
 That's it!
